@@ -1,3 +1,74 @@
 // Place all the styles related to the orders controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.order-new {
+    box-sizing: border-box;
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.order-new-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.order-new-confirmation {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.order-index {
+    box-sizing: border-box;
+    width: 900px;
+    height: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.order-index-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.header {
+    background-color: #D5EAD8; 
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.index-header {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+footer {
+    background-color: #D5EAD8;
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+    position: absolute;
+}
+
+.footer-info {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Georgia";
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;
+}

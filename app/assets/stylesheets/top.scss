@@ -1,3 +1,51 @@
 // Place all the styles related to the top controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.login_center_outer {
+    text-align: center;
+
+}
+
+.login_center_inner {
+    display: inline-block;
+    text-align: left;
+}
+
+.submit {
+    text-align: center;
+}
+
+.new_user {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header {
+    background-color: #D5EAD8; 
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.index-header {
+    font-family: "Comic Sans MS";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #D5EAD8;
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+    position: absolute;
+}
+
+.footer-info {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Georgia";
+}
